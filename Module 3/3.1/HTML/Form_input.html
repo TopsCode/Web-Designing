@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Text Input</h2>
+<!--
+The Action Attribute
+The action attribute defines the action to be performed when the form is submitted.
+The method attribute specifies the HTTP method (GET or POST) to be used when submitting the form data:
+The <fieldset> element is used to group related data in a form.
+The <legend> element defines a caption for the <fieldset> element.
+-->
+<form action="/action_page.php" method="post"  target="_blank">
+ <fieldset>
+    <legend>Personal information:</legend>
+  First name:<br>
+  <input type="text" name="firstname">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname">
+ <br>
+  User password:<br>
+  <input type="password" name="psw">
+  <br>
+  User Gender:<br>
+   <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+  <br>
+  User vehicle:<br>
+  <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+  <input type="checkbox" name="vehicle2" value="Car"> I have a car 
+  <br>
+  Select your favorite color:
+  <input type="color" name="favcolor">
+  <br>
+  Birthday:
+  <input type="date" name="bday">
+  <br>
+  Enter a date before 1980-01-01:
+  <input type="date" name="bday" max="1979-12-31"><br>
+  Enter a date after 2000-01-01:
+  <input type="date" name="bday" min="2000-01-02"><br>
+  Birthday (date and time):
+  <input type="datetime-local" name="bdaytime"><br>
+   E-mail:
+  <input type="email" name="email"><br>
+   Select a file: 
+   <input type="file" name="myFile"><br>
+   Birthday (month and year):
+  <input type="month" name="bdaymonth"><br>
+  Quantity (between 1 and 5):
+  <input type="number" name="quantity" min="1" max="5"><br>
+  
+  Select Car Dropdown:
+  <select name="cars" size="3" multiple>
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+	 <option value="Scoda">Scoda</option>
+    <option value="Renault">Renault</option>
+  </select>
+  <br>
+  Address / Comment:
+  <textarea name="message" rows="5" cols="40">
+	The cat was playing in the garden.
+  </textarea>
+  
+  <br><br>
+  <input type="submit" name="submit" value="Submit Name">
+  <input type="reset">
+  
+  <br>
+  <br>
+  <input type="button" onclick="alert('Hello World!')" value="Click Me!">
+  
+</fieldset>
+</form>
+
+
+
+</body>
+</html>
