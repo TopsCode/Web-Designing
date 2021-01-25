@@ -1,0 +1,762 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scroll-behavior: smooth;
+}
+.main-mainu
+{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: 1px 1px 2px gray;
+    position: fixed;
+    z-index: 1000;
+
+}
+section div
+{
+    margin-top: 20px;
+}
+
+.logo
+{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    margin-left: 100px;
+}
+h1 span
+{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+div ul
+{
+    display: inline-flex;
+    float: right;
+    margin-right: 20px;
+}
+ul li
+{
+    display: inline-flex;
+    padding: 10px;
+    font-size: 20px;
+}
+li a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+li a:hover
+{
+    transition: 0.5s;
+    text-decoration: none;
+    color: #ff214f;
+    font-weight: 600;
+}
+.button-icon
+{
+    font-size: 20px;
+    padding: 10px 14px;
+    border: none;
+    color: white;
+    background-color: rgb(155, 155, 155);
+    border-radius: 50%;
+    float: right;
+    margin-right: 100px;
+}
+.button-icon:hover
+{
+    transition: 0.5s;
+    font-size: 20px;
+    padding: 10px 14px;
+    border: none;
+    color: white;
+    background-color:#ff214f;
+    border-radius: 50%;
+    float: right;
+    margin-right: 100px;
+}
+.button-icon:focus
+{
+    outline: none;
+}
+.bgimage
+{
+    background-image: url(Image/pexels-ekaterina-bolovtsova-4049960.jpg);
+    width: 100%;
+    height: 700px;
+}
+.bgcontan
+{
+    width: 500px;
+    position: relative;
+    top: 230px;
+    left: 100px;
+}
+.keeping
+{
+    font-size: 55px;
+    font-weight: 600;
+    color: white;
+}
+hr
+{
+    width: 100px;
+    height: 4px;
+    background-color: #ff214f;
+    border: none;
+    margin: 20px 0px;
+}
+.modern
+{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 30px;
+}
+.Read-More
+{
+    font-size: 24px;
+    font-weight: 500;
+    background-color: white;
+    color:#ff214f;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.Read-More:hover
+{
+    transition: 1s;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Contact-Us
+{
+    font-size: 24px;
+    font-weight: 500;
+    background-color: #ff214f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.Contact-Us:hover
+{
+    transition: 1s;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: rgb(5, 21, 255);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.we-found
+{
+    margin-left: 100px;
+    width: 30%;
+    font-size: 40px;
+    font-weight: 400;
+    display: inline-flex;
+}
+.lorem
+{
+    font-size: 20px;
+    width: 48%;
+    float: right;
+    display: inline-flex;
+    margin-right: 100px;
+    margin-left: 30px;
+    color:#525252;
+}
+.contan
+{
+    margin-top: 50px;
+}
+.section-one
+{
+    margin-top: 50px;
+    width: 100%;
+    height: 840px;
+    background-color: #f8f9fa;
+}
+.flot-left
+{
+    width: 48%;
+    position: relative;
+    top: 100px;
+    margin-left: 100px;
+    display: inline-block;
+    float: left;
+}
+.box
+{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
+    display: inline-flex;
+    margin: 7px  15px 15px 0px;
+}
+.box:hover
+{
+    transition: 1s;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(8, 8, 8);
+    border-radius: 5px;
+    color: white;
+}
+.video-camera
+{
+    font-size: 20px;
+    color: white;
+    padding: 25px;
+    background-color:#ff214f;
+    border-radius: 100%;
+    margin: 10px 0px;
+}
+.box-cantan
+{
+    display: inline-block;
+    margin: 20px;
+    text-align: left;
+}
+.Consulting
+{
+    font-size: 30px;
+    font-weight:500;
+    margin: 10px 0px;
+}
+
+.justo
+{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.flot-rigth
+{
+    float: right;
+    width: 465px;
+    margin-right: 100px;
+    position: relative;
+    top: 100px;
+}
+
+.we-work
+{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.viverra 
+{
+    font-size: 20px;
+    margin-top: 50px;
+    color: #525252;
+}
+.Read-More-2
+{
+    font-size: 24px;
+    font-weight: 500;
+    background-color: #ff214f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.Read-More-2:hover
+{
+    transition: 1s;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: rgb(5, 21, 255);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.section-to
+{
+    width: 100%;
+    height: 555px;
+    background-color: white;
+}
+.flo-left-2
+{
+    width: 41%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+    display: inline-block;
+    margin-bottom: 100px;
+}
+.image-size
+{
+    width: 250px;
+    height: 350px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.flo-rigth-2
+{
+    width: 43%;
+    float: right;
+    display: inline-block;
+    margin-right: 100px;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.we-work-2
+{
+    font-size: 40px;
+    font-weight: 400;
+}
+.viverra-2 
+{
+    font-size: 20px;
+    color:#525252;
+    margin-bottom: 30px;
+}
+table
+{
+    text-align: left;
+    font-size: 20px;
+}
+th,td
+{
+    padding: 10px 20px 0px 0px;
+}
+td
+{
+    color: #525252;
+}
+.section-three
+{
+    width: 100%;
+    height: 400px;
+    background-color: #f8f9fa;
+}
+.caunt-title
+{
+    position: relative;
+    top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.caunt-namber
+{
+    display: inline-block;
+    margin-right: 70px;
+}
+.clone
+{
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 100%;
+    background-color: #ff214f;
+    color: white;
+}
+.h1
+{
+    font-size: 70px;
+}
+.total-projects
+{
+    font-size: 25px;
+    font-weight: 400;
+}
+.section-for
+{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+}
+.MAIN-BLOG-POSTS
+{
+    text-align: center;
+    margin-top: 100px;
+}
+.BLOG-POSTS
+{
+    font-size: 20px;
+    font-weight: 500;
+    color:#ff214f;
+}
+.take-charge
+{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.image-one
+{
+    background-image: url(Image/pexels-startup-stock-photos-7097.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 520px;
+    height: 400px;
+    border-radius: 10px;
+    display: inline-flex;
+    margin: 10px;
+}
+
+.image-one-contan
+{
+    position: absolute;
+    top: 200em;
+    left: 125px;
+}
+.News
+{
+    font-size: 20px;
+    color: white;
+    
+}
+.incredible
+{
+    font-size:25px;
+    font-weight: 500;
+    color: white;
+    margin: 30px 0px;
+    cursor: pointer;
+}
+.profile
+{
+    width: 70PX;
+    height: 70PX;
+    border-radius: 100%;
+    border: 2px solid gray;
+    display: inline-flex;
+    vertical-align: middle;
+
+}
+.time
+{
+    color: white;
+    display: inline-flex;
+}
+.clock::before
+{
+    content: "\f017";
+    font-size: 13px;
+    vertical-align: -2px;
+}
+.image-to
+{
+    background-image: url(Image/pexels-christina-morillo-1181583.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 280px;
+    height:400px ;
+    border-radius: 10px;
+    display: inline-flex;
+    margin: 10px;
+}
+.image-to-contan
+{
+    position: absolute;
+    top: 198em;
+    left: 665px;
+}
+
+.image-three
+{
+    background-image: url(Image/pexels-rfstudio-3810790.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 280px;
+    height:400px ;
+    border-radius: 10px;
+    display: inline-flex;
+    margin: 10px;
+}
+.image-three-contan
+{
+    position: absolute;
+    top: 198em;
+    right: 130px;
+
+}
+.Read-More-3
+{
+    font-size: 24px;
+    font-weight: 500;
+    background-color: #ff214f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.Read-More-3:hover
+{
+    transition: 1s;
+    font-size: 24px;
+    font-weight: 500;
+    background-color:rgb(5, 21, 255);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.cotenar
+{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.section-five
+{
+    width: 100%;
+    height: 1200px;
+    background-color: white;
+}
+.image-for
+{
+    background-image: url(Image/pexels-jopwell-2422294.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+}
+.image-for-cantan
+{
+    position: relative;
+    top: 100px;
+    width: 56%;
+}
+.MAIN-BLOG-POSTS-2
+{
+    text-align: center;
+    position: relative;
+    top: 220px;
+}
+.box-2
+{
+    width: 70%;
+    height: 420px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px gray;
+    position: relative;
+    left: 170px;
+}
+.blockquote
+{
+    font-size: 20px;
+    color:#525252;
+    margin: 35px;
+    display: inline-flex;
+}
+q::before
+{
+    font-size: 30px;
+    color: #ff214f;
+    padding: 0px 15px;
+    border: 2px solid #ff214f;
+    border-radius: 100%;
+    margin: 10px 0px
+}
+.chevron-left
+{
+    float: left;
+    position: relative;
+    top: 180px;
+}
+.chevron-right
+{
+    float: right;
+    position: relative;
+    top: 180px;
+}
+.chevron
+{
+    font-size: 30px;
+    color: white;
+    padding: 20px 5px;
+    background-color: black;
+    border-radius: 5px;
+}
+.chevron:hover
+{
+    transition: 1s;
+    font-size: 30px;
+    color: white;
+    padding: 20px 5px;
+    background-color: #ff214f;
+    border-radius: 5px;
+}
+footer
+{
+    width: 100%;
+    height: 665px;
+    background-color: #222333;
+}
+.footer-contan
+{
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+    bottom: 180px;
+    margin-right: 20px;
+}
+.Advisory
+{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+.li
+{
+
+    list-style: none;
+    font-size: 20px;
+    color: rgb(224, 224, 224);
+    margin-bottom: 20px;
+}
+.facebook
+{
+    font-size: 20px;
+    color: #ff214f;
+    padding: 10px 14px;
+    border-radius: 100%;
+    background-color: white;
+    margin: 5px;
+}
+.facebook:hover
+{
+    transition: 1s;
+    font-size: 20px;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 100%;
+    background-color: #ff214f;
+    margin: 5px;
+    cursor: pointer;
+}
+.sociale
+{
+    font-size: 20px;
+    color: #ff214f;
+    padding: 10px ;
+    border-radius: 100%;
+    background-color: white;
+    margin: 5px;
+}
+.sociale:hover
+{
+    font-size: 20px;
+    color: white;
+    padding: 10px ;
+    border-radius: 100%;
+    background-color: #ff214f;
+    margin: 5px;
+    cursor: pointer;
+}
+.footer-contan-2
+{
+    width: 170px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+    bottom: 72px;
+}
+a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(224, 224, 224);
+    display: inline-block;
+    margin: 10px 0px;
+}
+a:hover
+{
+    text-decoration: none;
+    font-size: 20px;
+    color:#ff214f;
+    display: inline-block;
+    margin: 10px 0px;
+}
+.footer-contan-3
+{
+    width: 170px;
+    height: 500px;
+    position: relative;
+    display: inline-block;
+    top: 22px;
+    margin: 0px 10px;
+}
+.footer-contan-4
+{
+    width: 355px;
+    height: 500px;
+    position: relative;
+    display: inline-block;
+    top: 80px;
+}
+iframe
+{
+    border-radius: 10px;
+}
+.address
+{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+.one-pexle
+{
+    width: 100%;
+    background-color: rgb(187, 187, 187);
+    height: 1px;
+    border: none;
+}
+.rohit
+{
+    font-size: 20px;
+    color:#ff214f;
+}
+.rohit:hover
+{
+    font-size: 20px;
+    color:white;
+}
+.copy-right
+{
+    display: inline-block;
+}
+.privacy-policy
+{
+    display: inline-block;
+    float: right;
+}
+.sort-up
+{
+    position: fixed;
+    right: 30px;
+    top: 550px;
+    font-size: 30px;
+    padding:  15px 20px ;
+    color: white;
+    background-color:#ff214f ;
+    border-radius: 100%;
+}
+button:focus
+{
+    outline: none;
+}

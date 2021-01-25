@@ -1,0 +1,676 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,400;1,500;1,700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ########################## elements styling ################### */
+html
+{
+    /* 16px=100%
+    10px=?? */
+    font-size: 62.5%;
+}
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+}
+
+ul li
+{
+    list-style:none;
+}
+
+a
+{
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+p,li
+{
+    font-size: 1.6rem;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15rem;
+}
+h1,h2,h3
+{
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+    font-weight:500;
+}
+/* ############################utility classes############################## */
+
+.container
+{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+.lg-heading
+{
+    font-size: 3.5rem;
+}
+
+.md-heading
+{
+    font-size: 2.2rem;
+}
+
+.text-red
+{
+    color:#e63946;
+}
+.text-light
+{
+    color: #f4f4f4;
+}
+.text-black
+{
+    color: #333;
+}
+.text-gray
+{
+    color: #555;
+}
+.btn
+{
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    font-weight: 500;
+    margin: 0.5em 0;
+}
+
+.btn-primary
+{
+    background-color: #f4f4f4;
+    border-radius: 100px;
+    transition: all 0.5s;
+}
+.btn-primary:hover
+{
+    background-color: darkolivegreen;
+    color: white;
+}
+.btn-secondary
+{
+    border: 2px solid #e63946;
+    border-radius: 1.5em;
+    color: #e63946;
+    background: #fff;   
+}
+.btn-secondary:hover
+{
+    background-color: #e63946;
+    color: white;
+}
+.bg-dark
+{
+    background-color: #263238;
+}
+
+/* ########################## Header styling ########################### */
+
+header
+{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(1, 27, 3, 0.5)),url('../img/pexels-photo-531321.jpeg') no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.navbar
+{
+    padding: 1rem;
+}
+
+.navbar .logo
+{
+    float: left;
+}
+
+.navbar .nav-items
+{
+    float:right;
+    margin-top: 1rem;
+}
+
+.navbar .nav-item
+{
+    display: inline-block;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+.navbar a:link,
+.navbar a:visited
+{
+    color: #f4f4f4;
+}
+
+.navbar a
+{
+        padding: 1rem;
+}
+.navbar a:hover
+{
+        border-bottom: 1px solid white;
+}
+
+.navbar::after
+{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* ############################## header content #################### */
+
+.header-content
+{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.header-content h1
+{
+    font-weight: 700;
+}
+
+/* ######################### showcase styling ###################### */
+
+.showcase
+{
+    background: #ddd;
+    padding: 10rem 0;
+}
+
+.row
+{
+    height: 350px;
+    background: #fff;
+    box-shadow: 0px 0px 15px 0px gray;
+}
+
+.row1
+{
+    margin-bottom: 10rem;
+}
+
+.row1 .img-box,.row2 .text-box
+{
+    float: left;
+    width: 50%;
+}
+
+.row2 .img-box,.row1 .text-box
+{
+    float: right;
+    width: 50%;
+}
+.row::after
+{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.row .img-box
+{
+    height: 100%;
+}
+
+.row .text-box
+{
+    padding: 3rem;
+}
+
+.row .img-box img
+{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.font-weight
+{
+    font-weight: 700;
+}
+
+/* ################################## Features section ######################### */
+
+.features
+{
+    padding: 10rem 0;
+}
+.box-wraper
+{
+    box-shadow: 0px 0px 15px 0px gray;
+}
+.box
+{
+    width: 33.33333333%;
+    float: left;
+    text-align: center;
+    padding: 2rem;
+}
+
+.box-1,.box-3
+{
+    background-color: #263238;
+    color: white;
+}
+.box-2
+{
+    background-color: #e2303f;
+    color: white;
+}
+
+.box-wraper::after
+{
+    content: '';
+    display:block;
+    clear: both;
+}
+/* ############################ footer ##################### */
+.footer
+{
+    text-align: center;
+    background-color:#263238;
+    padding: 2rem;
+    color: white;
+}
+.social a i
+{
+    color: white;
+    margin: 2rem;
+}
+.social a i:hover
+{
+    color:#e2303f;
+}
+
+/* ############################# About page ###################### */
+
+.about
+{
+    padding: 3rem 0rem;
+}
+
+.about-heading::after
+{
+    content: '';
+    display: block;
+    width: 100%;
+    border:3px solid #e2303f;
+}
+
+/* ########################## about wraper ###################### */
+.about-wraper
+{
+    text-align: center;
+    margin-top: 2rem;
+}
+.about-wraper .left
+{
+    float: left;
+    width:50%;
+}
+
+.about-wraper .right
+{
+    float: right;
+    width:50%;
+}
+
+.about-wraper::after
+{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.about-wraper li::before
+{
+    content:'\2713';
+    color: #e2303f;
+    font-weight: bold;
+    padding-right: 1rem;
+}
+
+/* ############################## count ####################### */
+.counts
+{
+    margin-top: 3rem;
+}
+.count-item
+{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.counts::after
+{
+    content: '';
+    clear: both;
+    display: block;
+}
+.count-item span
+{
+    font-size: 3rem;
+    color:#e2303f;
+    font-weight: 700;
+}
+.count-item p
+{
+    font-weight: 700;
+    color:#555;
+    font-size: 1.8rem;
+}
+
+/* ################################## banner ######################### */
+
+.banner
+{
+    background: linear-gradient(25deg,#d64c7f,#ee4758 50%);
+    color: white;
+    padding: 1rem;
+    box-shadow: 0px 0px 10px 0px gray;
+    margin-top: 3rem;
+}
+
+.banner-left
+{
+    float: left;
+    width: 50%;
+}
+
+.banner-right
+{
+    float: right;
+    width: 40%;
+}
+.line
+{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top:1.5rem;
+}
+.banner-btn
+{
+    text-align: center;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding: 0.3em 2.5em;
+    letter-spacing: 0.5rem;
+    color: #f4f4f4;
+}
+.banner-btn:hover
+{
+    color: black;
+}
+.banner::after
+{
+    content: '';
+    display:block;
+    clear: both;
+}
+
+/* ################################ contact page ################## */
+
+.contect-form
+{
+    padding: 5rem 0rem;
+    background: #f7f7f7;
+}
+.form-wraper .company-address
+{
+    background: #fff;
+    width: 49%;
+    float: left;
+    padding: 1rem;
+}
+
+.form-wraper .address-group
+{
+    margin-bottom: 3rem;
+}
+
+.form-wraper .company-address img
+{
+    max-width: 90%;
+    min-height: 40rem;
+    object-fit: cover;
+    object-position:right;
+}
+
+.form-wraper .company-address i
+{
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.form-wraper .company-address h2
+{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.form-wraper::after
+{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+/* ########################### form styling ########################### */
+
+.form-wraper .form
+{
+    font-size: 1.6rem;
+    background: #fff;
+    width: 49%;
+    float: right;
+}
+
+.form h1::after
+{
+    content: '';
+    display: block;
+    border: 3px solid #e2303f;
+    width: 100%;
+}
+
+.form-wraper .form label
+{
+    display: block;
+}
+
+.form-wraper .form input
+{
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.form-wraper .form .form-group
+{
+    margin-bottom: 1.2rem;
+}
+
+.form-wraper .form label::after
+{
+    content: '* ';
+    color: #e2303f;
+}
+
+.form-btn
+{
+    display: block;
+    margin: 0 auto;
+    padding: 0.2em 2em;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    background: #e2303f;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.message
+{
+    height: 310px;
+}
+
+/* ######################### media query ###################### */
+
+@media (max-width:500px)
+{
+    html
+    {
+        font-size: 50%;
+    }
+    .navbar .nav-items,.navbar .logo
+    {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .row
+    {
+        height: auto;
+        width: 100%;
+    }
+    .row .img-box,
+    .row .text-box
+    {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .features .box
+    {
+        float: none;
+        width: 100%;
+        text-align: center;
+        box-shadow: 0px 0px 15px 0px gray;
+    }
+    
+    .features .box-2,
+    .features .box-3
+    {
+        margin-top: 6rem;
+    }
+
+    .box-wraper
+    {
+        box-shadow: none;
+    }
+    .banner-left,.banner-right
+    {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .form-wraper .company-address
+    {
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem;
+    }
+    .form-wraper .form
+    {
+        float:none;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(min-width:500px) and (max-width:800px)
+{  
+    html
+    {
+        font-size: 50%;
+    }
+    p
+    {
+        font-size: 1.8rem;
+    }
+    .navbar .nav-items,.navbar .logo
+    {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .row
+    {
+        height: auto;
+        width: 100%;
+    }
+    .row .img-box,
+    .row .text-box
+    {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .features .box
+    {
+        float: none;
+        width: 100%;
+        text-align: center;
+        box-shadow: 0px 0px 15px 0px gray;
+    }
+    
+    .features .box-2,
+    .features .box-3
+    {
+        margin-top: 6rem;
+    }
+
+    .box-wraper
+    {
+        box-shadow: none;
+    }
+    .banner-left,.banner-right
+    {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .form-wraper .company-address
+    {
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem;
+    }
+    .form-wraper .form
+    {
+        float:none;
+        width: 100%;
+        height: auto;
+    } 
+}
+@media(min-width:801px) and (max-width:1200px)
+{
+    html
+    {
+        font-size: 52%;
+    }
+}
+
+@media(orientation:landscape) and (max-height:500px)
+{
+    header
+    {
+        height: 90vmax;
+    }
+} 

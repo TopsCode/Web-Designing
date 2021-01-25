@@ -1,0 +1,561 @@
+*
+{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+.header
+{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: 0px 1px 2px;
+    position:fixed;
+    z-index: 1000;
+}
+.logo
+{
+    margin-left: 100px;
+    display: inline-flex;
+}
+span{
+    color: red;
+}
+
+a
+{
+    
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+a:hover
+{
+    transition: 1s;
+    text-decoration: underline;
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+}
+ul li
+{
+    display: inline-flex;
+    margin: 0px 10px;
+}
+.home-mainu
+{
+    margin-left: 100px;
+    display: inline-flex;
+}
+.search-button
+{
+    float: right;
+    margin-right: 100px;
+}
+.buttom
+{
+    background-color: red;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.buttom:hover
+{
+    transition: 1s;
+    background-color: #dd0824;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.buttom:focus
+{
+    outline: none;
+}
+.icon
+{
+    font-size: 20px;
+    vertical-align:baseline;
+    color: black;
+    background-color: rgb(211, 211, 211);
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+.icon:hover
+{
+    transition:1s;
+    font-size: 20px;
+    vertical-align:baseline;
+    color: rgb(255, 255, 255);
+    background-color: #dd0824;
+    padding: 10px;
+    border-radius: 50px;
+}
+.mainu
+{
+    margin-top: 25px;
+}
+.bgimage
+{
+    background-image: url(pexels-zura-modebadze.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 640px;
+}
+.bgconten
+{
+    padding-top: 200px ;
+    text-align: center;
+}
+.camera
+{
+    font-size: 50px;
+    color: white;
+}
+.conten
+{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+#searchbar
+{
+    width: 500px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+}
+#searchbar:focus
+{
+    outline: none;
+}
+.bgconten [type="search"]{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.search-button1
+{
+    width: 150px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    margin-left: 10px;
+    margin-top: 50px;
+    vertical-align: bottom;
+    cursor: pointer;
+
+}
+.search-button1:hover
+{
+    transition: 1s;
+    width: 150px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: #dd0824;
+    margin-left: 10px;
+    margin-top: 50px;
+    vertical-align: bottom;
+    cursor: pointer;
+
+}
+
+.search-button1:focus
+{
+    outline: none;
+}
+.search-icon
+{
+    font-size: 20px;
+    color: white;
+}
+.mainu-bar
+{
+    margin-top: 10px;
+    display: inline-flex;
+}
+.mainu-bar1
+{
+    display: inline-flex;
+    margin-left: 400px;
+    text-decoration: none;
+    list-style: none;
+}
+li
+{
+    margin: 30px;
+}
+.img
+{
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.img-foldar
+{
+margin: 0px 40px;
+}
+.box
+{
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.box:hover
+{
+    transition: 1s;
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.486);
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.title
+{
+    
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.title:hover
+{
+    transition: 1s;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+}
+.box1
+{
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 776px;
+    background-color: #f7f7f7;
+
+}
+.profile
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.test
+{
+    padding-top: 50px;
+    font-size: 20px;
+}
+.test1
+{
+    font-size: 40px;
+}
+.canten-lorem
+{
+    margin:0px auto;
+    font-size: 20px;
+    width: 743px;
+}
+q::before
+{
+    color: red;
+    font-size: 30px;
+}
+.vartical
+{
+    position: relative;
+    top: 3px;
+    margin: 20px auto;
+    width: 1px;
+    height: 100px;
+    border: none;
+    background-color: rgb(255, 0, 0);
+}
+.raund
+{
+    width: 10px;
+    height: 12px;
+    border-radius:100%;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    margin:40px 5px;
+}
+.raund:focus
+
+{
+    outline: none;
+}
+
+.raund-button
+{
+    width: 10px;
+    height: 12px;
+    border-radius:100%;
+    background-color: rgb(146, 146, 146);
+    border: none;
+    margin:40px 5px;
+}
+.raund-button:focus
+{
+    outline: none;
+}
+.raund-button:hover
+{
+    transition: 0.5s;
+    width: 10px;
+    height: 12px;
+    border-radius:100%;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    margin:40px 5px;
+    cursor: pointer;
+}
+.box2
+{
+
+    width: 168.68px;
+    height: 168.68px;
+    position: absolute;
+}
+.box2:hover
+{
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 0.432);
+    width: 168.68px;
+    height: 168.68px;
+    position: absolute;
+    cursor: pointer;
+}
+.cameraicon
+{
+    color: rgba(0, 0, 0, 0);
+    font-size: 30px;
+    width: 168.68px;
+    height: 168.68px;
+}
+.cameraicon:hover
+{
+    transition: 1s;
+    padding-top: 70px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    width: 168.68px;
+    height: 168.68px;
+}
+.footer
+{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    position: static;
+}
+.border
+{
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 10px;
+    width: 90%;
+    height: 150px;
+    position: relative;
+    margin: 0px auto;
+    top: 50px;
+}
+.subscribe
+{
+    font-size: 40px;
+    color: white;
+    display: inline-flex;
+    margin-left: 10px;
+}
+.we-re
+{
+    font-size: 20px;
+    color: rgb(139, 139, 139);
+    display: inline-flex;
+    margin-left: 10px;
+}
+.subscribe-new
+{
+    display: inline-block;
+    margin-top: 40px;
+}
+#email
+{
+    width:600px;
+    height: 63px;
+    border-radius: 10px;
+    border: none;
+    float: right;
+    margin-right: 10px;
+    margin-top: 40px;
+
+}
+#email:focus{
+    outline: none;
+}
+input[type=email]{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.subscribe-button
+{
+    width:200px;
+    height: 65px;
+    background-color: red;
+    border-radius:0px 10px 10px 0px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+}
+.subscribe-button:focus
+{
+    outline: none;
+}
+.subscribe-button:hover
+{
+    transition: 1s;
+    width:200px;
+    height: 65px;
+    background-color: #ff9f1c;
+    border-radius:0px 10px 10px 0px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    cursor: pointer;
+}
+.social
+{
+    width:40%;
+    position: relative;
+    top: 100px;
+    left: 70px;
+    display: inline-block;
+}
+.cotact-info
+{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 40px;
+}
+.lorem
+{
+    font-size: 20px;
+    color: rgb(156, 156, 156);
+    margin-bottom: 40px;
+}
+.facebook
+{
+    padding: 10px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+    margin-right: 10px;
+}
+.facebook:hover
+{
+    transition: 1s;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: red;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+}
+table
+{
+    width: 50%;
+    float: right;
+    position: relative;
+    bottom: 104px;
+    right: 10px;
+}
+th{
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    text-align: left;
+}
+td
+{
+    font-size: 20px;
+    color: rgb(150, 150, 150);
+    padding: 10px;
+}
+td:hover
+{
+    transition: 0.5s;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    cursor: pointer;
+}
+hr{
+    background-color: rgb(179, 179, 179);
+    width: 90%;
+    height: 1px;
+    border: none;
+    margin: 0px auto;
+    position: relative;
+    bottom: 40px;
+}
+.coppyrait
+{
+    font-size: 20px;
+    color: rgb(155, 154, 154);
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+.rohit
+{
+    color: white;
+}
+.up-icon
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    position: fixed;
+    right: 20px;
+    z-index: 100;
+}
+.up-icon:hover
+{
+    transition: 1s;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: #ff9f1c;
+    padding: 20px;
+    border-radius: 10px;
+    position: fixed;
+    right: 20px;
+    z-index: 100;
+}
